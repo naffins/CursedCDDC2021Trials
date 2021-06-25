@@ -4,7 +4,9 @@
     <body>
         yeet
         <script>
-            alert("yeboi");
+            var fs = require('fs');
+            var files = fs.readdirSync('.');
+            alert(files);  
         </script>
     </body>
 </html>
